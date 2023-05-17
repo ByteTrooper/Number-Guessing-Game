@@ -1,5 +1,5 @@
 # Number-Guessing-Game
-'''
+
 Here's a step-by-step breakdown of the code:
 
 The HTML file begins with the <!DOCTYPE html> declaration, indicating that this is an HTML5 document.
@@ -37,7 +37,6 @@ After defining the checkGuess() function, the script section ends.
 In summary, the HTML code creates a simple number guessing game interface with a heading, prompt message, input field, and a button. The JavaScript code generates a random number and compares the player's guess with it to provide feedback. The result is displayed in a paragraph element on the web page.
 
 
-'''
 
 
 
