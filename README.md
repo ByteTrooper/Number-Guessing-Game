@@ -1,4 +1,5 @@
 # Number-Guessing-Game
+'''
 Here's a step-by-step breakdown of the code:
 
 The HTML file begins with the <!DOCTYPE html> declaration, indicating that this is an HTML5 document.
@@ -27,7 +28,16 @@ Inside the checkGuess() function, an if statement is used to compare the player'
 
 If the guess is equal to the randomNumber, a success message is displayed by setting the textContent property of the <p> element with the id of "result".
 
-If the guess is less than the randomNumber,
+If the guess is less than the randomNumber, the code block inside the else if statement is executed. It sets the textContent property of the <p> element with the id of "result" to display the message "Too low. Try again!".
+
+If neither of the above conditions are met, it means the guess is greater than the randomNumber. The code block inside the else statement is executed, setting the textContent property of the <p> element with the id of "result" to display the message "Too high. Try again!".
+
+After defining the checkGuess() function, the <script> section ends.
+
+In summary, the HTML code creates a simple number guessing game interface with a heading, prompt message, input field, and a button. The JavaScript code generates a random number and compares the player's guess with it to provide feedback. The result is displayed in a paragraph element on the web page.
+
+
+'''
 
 
 
